@@ -25,8 +25,8 @@ setup(
         libraries=["stdc++"],
         include_dirs=['lib'],
         language="c++",
-        extra_compile_args=["-std=c++11", "-march=native", "-mtune=native", "-O3", "-mpopcnt"],
-        extra_link_args=["-std=c++11", "-march=native", "-mtune=native", "-O3", "-mpopcnt"]
+        extra_compile_args=["-std=c++11", "-march=native", "-mtune=native", "-O3"],
+        extra_link_args=["-std=c++11", "-march=native", "-mtune=native", "-O3"]
     )]),
     install_requires=['Cython'],
     setup_requires=['pytest-runner'],
