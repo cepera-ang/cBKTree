@@ -1,7 +1,8 @@
 Install
 =======
+sudo python3 setup.py install
 
-pip install cbktree
+This repo contain small change to allow installation of this lib to raspberry pi
 
 
 Changelog
